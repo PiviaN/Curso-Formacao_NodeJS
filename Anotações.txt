@@ -1,0 +1,7 @@
+Para exportar uma função de um módulo, você deve utilizar o 
+module.exports = { nomeFuncao };
+E, para utilizar esta exportação, você deve receber a importação em uma variável através do 
+var importFunction = require("./arquivo");
+
+Para utilizar uma função específica, fazemos que nem os objetos, por exemplo:
+console.log(nomeFuncao.funcaoSoma(20,10));
